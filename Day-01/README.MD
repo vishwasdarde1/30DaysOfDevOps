@@ -40,7 +40,6 @@ Follow these rules while creating your plan:
   (example: 2–2.5 hours per day on weekdays, 4-6 hours weekends)
 - Keep the document **under 1 page**
 - Be honest and realistic; consistency matters more than perfection
-
 ## Questions:- 
 
 1. What is DevOps?
