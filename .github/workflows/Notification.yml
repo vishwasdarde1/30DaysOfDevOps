@@ -1,0 +1,13 @@
+name: Push Message
+
+on:
+  push:
+    branches:
+      - main   # Trigger when pushing to main branch
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display message
+        run: echo "Hello vishwas, good work. you are on a right track. keep it up."
