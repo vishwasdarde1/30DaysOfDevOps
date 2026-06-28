@@ -200,3 +200,6 @@ Root (/) → The top of the hierarchy; all files and directories branch from her
 10. man → Shows the manual/help page for a command.
 
 👉 In short: These commands are the building blocks for navigating, managing files, and interacting with Linux.
+
+
+End of day 02 task.

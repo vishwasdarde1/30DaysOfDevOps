@@ -48,5 +48,3 @@ Follow these rules while creating your plan:
 4. What is SDLC?
 5. What Problems Does DevOps Solve?
 
-
-End of day 2 tasks.
