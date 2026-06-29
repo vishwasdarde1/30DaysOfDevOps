@@ -185,6 +185,7 @@ Root (/) → The top of the hierarchy; all files and directories branch from her
 
 👉 In short: The Linux file system is a unified, hierarchical structure starting at /, where everything is treated as a file, organized into standard directories, and managed with permissions and mounts.
 
+-- 
 11. Add 5-10 Basic commands and its uses?
 >> Here are some basic Linux commands and their uses:
 
@@ -200,6 +201,7 @@ Root (/) → The top of the hierarchy; all files and directories branch from her
 10. man → Shows the manual/help page for a command.
 
 👉 In short: These commands are the building blocks for navigating, managing files, and interacting with Linux.
+-- 
 
 
 End of day 02 task.
