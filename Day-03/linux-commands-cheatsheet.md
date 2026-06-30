@@ -12,7 +12,7 @@ Follow these rules while creating your cheat sheet:
 - Pick **one service on your system** (example: `ssh`, `cron`, `docker`) and inspect it
 - Keep it **simple and actionable**
 
--- 
+--  
 
 1. Include **at least 20 commands** with one‑line usage notes.
 >>
@@ -42,7 +42,7 @@ Follow these rules while creating your cheat sheet:
 24> uname -a → Show system info.
 25> whoami → Display current logged‑in user.
 
--- 
+--  
 
 2. Add **3 networking commands** (`ping`, `ip addr`, `dig`, `curl`, etc.)
 >> Networking Commands
@@ -53,6 +53,7 @@ Follow these rules while creating your cheat sheet:
 
 3> curl <url> → Fetch data from a URL (test APIs or websites).
 
+--
 
 
 3. Group commands by category
@@ -111,7 +112,7 @@ Permissions → control access.
 Processes/System → monitor and manage.
 Networking → test and troubleshoot connections.
 
-
+--  
 
 4. Include **2 process commands** (`ps`, `top`, `pgrep`, etc.)
 >>
@@ -119,7 +120,7 @@ Networking → test and troubleshoot connections.
 2> top → Displays real‑time process and resource usage (CPU, memory, tasks).
 3> pgrep <name> → Finds process IDs by name.
 
-
+--  
 
 5. Include **2 service commands** (`systemctl status`, `systemctl list-units`, etc.)
 >> 
@@ -156,6 +157,7 @@ Use systemctl list-units to see what’s running.
 
 Use systemctl start/stop/restart/enable/disable to control services.
 
+-- 
 
 6. Include **2 log commands** (`journalctl -u <service>`, `tail -n 50`, etc.)
 >> 
@@ -179,3 +181,4 @@ Example:  tail -f /var/log/auth.log
 -- Use journalctl for systemd‑managed service logs.
 
 -- Use tail for traditional log files in /var/log.
+--
