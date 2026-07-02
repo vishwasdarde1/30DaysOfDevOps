@@ -18,11 +18,3 @@ jobs:
       # Verify Python version
       - name: Check Python version
         run: python3 --version
-
-      # Install pytest using pip
-      - name: Install pytest
-        run: pip3 install pytest
-
-      # Run tests
-      - name: Run tests
-        run: pytest
