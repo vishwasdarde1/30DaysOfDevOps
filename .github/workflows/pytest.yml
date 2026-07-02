@@ -1,0 +1,28 @@
+name: Run Tests
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: self-hosted   # your EC2 runner
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Install Python manually on your EC2 runner
+      - name: Install Python
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 python3-pip
+
+      # Verify Python version
+      - name: Check Python version
+        run: python3 --version
+
+      # Install pytest using pip
+      - name: Install pytest
+        run: pip3 install pytest
+
+      # Run tests
+      - name: Run tests
+        run: pytest
