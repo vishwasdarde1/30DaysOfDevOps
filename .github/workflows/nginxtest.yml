@@ -1,0 +1,25 @@
+name: Install Nginx
+
+on: [push]
+
+jobs:
+  setup-nginx:
+    runs-on: self-hosted   # your EC2 runner
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Update apt cache
+        run: sudo apt-get update
+
+      - name: Install Nginx
+        run: sudo apt-get install -y nginx
+
+      - name: Verify Nginx installation
+        run: nginx -v
+
+      - name: Start Nginx service
+        run: sudo systemctl start nginx
+
+      - name: Check Nginx status
+        run: sudo systemctl status nginx --no-pager
